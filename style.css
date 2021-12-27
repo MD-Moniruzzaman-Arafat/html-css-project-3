@@ -1,0 +1,142 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    color: #562EFF;
+}
+/* default style end */
+body{
+    background-color: #E5E5E5;
+}
+header{
+    background-color: #562EFF;
+}
+#header-section{
+    width: 870px;
+    height: 94px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo>img{
+    width: 40.42px;
+    height: 51px;
+}
+.logo>span{
+    color: white;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu>nav>a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+.menu>img{
+    width: 51px;
+    height: 51px;
+}
+/* header style end */
+#section1{
+    width: 870px;
+    height: 525px;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+#top-player{
+    border-bottom: 1px solid lightgray;
+}
+.players{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin-bottom: 25px;
+}
+.player{
+    display: flex;
+    align-items: center;
+    
+}
+.player>img{
+    width: 56px;
+    height: 56px;
+}
+.player>p{
+    margin-left: 10px;
+    font-weight: 700;
+}
+#top-blog{
+    margin-top: 25px;
+}
+.blogs{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+}
+.blog>.img>img{
+    width: 177px;
+    height: 117px;
+}
+.blog>.title{
+    margin-left: 10px;
+    line-height: 30px;
+}
+.blog>.title>p{
+    color: gray;
+}
+.blog>.title>p>span{
+    color: #562EFF;
+}
+/* section1 style end */
+#section2{
+    width: 870px;
+    height: 300px;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+}
+.courses{
+    margin-top: 20px;
+}
+.course>.img>img{
+    width: 266px;
+    height: 141px;
+}
+.course>.title{
+    line-height: 30px;
+}
+.course>.title>p{
+    color: red;
+}
+.ratings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
